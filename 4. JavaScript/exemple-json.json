@@ -1,0 +1,27 @@
+{
+	"nom": "Hugo",
+	"prenom": "Victor",
+	"romans": [
+		{
+			"titre": "Les Misérables",
+			"parution": 1852,
+			"personnages": [
+				"Jean Valjean",
+				"Cosette",
+				"Gavroche"
+			]
+		},
+		{
+			"titre": "Notre-Dame de Paris",
+			"parution": 1842,
+			"personnages": [
+				"Esmeralda",
+				"Quasimodo",
+				"Phoebus"
+			]
+		}		
+	],
+	"amis": [
+		"Juliette Drouet"
+	]
+}
