@@ -82,3 +82,5 @@ Les classes comportent un certain nombre de nouveautés :
 * le mot-clef `super` pour exécuter une méthode de l'objet prototype
 
 Néanmoins, la syntaxe est trompeuse, car le modèle sous-jacent reste bien basé sur les prototypes.
+
+__Attention__ : le _hoisting_, qui permet d'utiliser les fonctions avant de les avoir déclarées, ne fonctionne pas avec les classes.
