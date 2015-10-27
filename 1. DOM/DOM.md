@@ -18,15 +18,15 @@ Bien qu'il soit utilisé la plupart du temps avec JavaScript, le DOM peut être 
 L'objet `Node` est l'objet racine pour la manipulation des nœuds. Il a une série d'objets enfants comme :  
 
 * Document
-** HTMLDocument
+  * HTMLDocument
 * Element
-** HTMLElement
-** SVGElement
+  * HTMLElement
+  * SVGElement
 * Attr
 * CharacterData
-** Text
-** Comment
-** CDATASection
+  * Text
+  * Comment
+  * CDATASection
 * ProcessingInstruction
 * DocumentFragment
 * DocumentType
