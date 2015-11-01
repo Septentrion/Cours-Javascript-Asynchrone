@@ -30,9 +30,6 @@ L'objet `Node` est l'objet racine pour la manipulation des nœuds. Il a une sér
 * ProcessingInstruction
 * DocumentFragment
 * DocumentType
-* Notation
-* Entity
-* EntityReference
 
 ### NodeList
 
