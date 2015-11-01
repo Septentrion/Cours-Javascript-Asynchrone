@@ -19,7 +19,8 @@ Une fois installé, un objet `jQuery` est créé qui est souvent appelé par le 
 
 D'une manière générale, le code sera encapsulé dans un callback qui répondra à l'événement `documentready`.
 
-```lavascript
+```javascript
 $(document).ready(function () {
 	// Code à exécuter
 })
+
