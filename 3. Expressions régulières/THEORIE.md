@@ -18,6 +18,9 @@ On peut mettre dans une expression régulière :
   * [abc] : une des trois lettres (ensemble)
   * [a-z] : une lettre minuscule (intervalle)
   * [^abc] : ensemble complémenté (par le caractères `^`)
+* des répéttions entre accolades
+  * ab{3} : un a suivi de 3 b
+  * ab{3,6} : un a suivi de au moins 3 et au plus 6 b
 * des alternatives avec le caractères `|`
   * a|b|v : une des trois lettres
 
