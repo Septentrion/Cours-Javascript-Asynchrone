@@ -28,7 +28,7 @@ var Ecrivain = function (prenom, nom, annee) {
 	this.prenom = prenom;
 	this.nom = nom;
 	this.annee = annee;
-	this.f = function() { return this.annee; }
+	this.f = function() { return this.prenom+ " ".this.nom+" est né en "+this.annee; }
 };
 
 var hugo = new Ecrivain('Victor', 'Hugo', 1802);
