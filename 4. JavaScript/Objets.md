@@ -33,7 +33,7 @@ var Ecrivain = function (prenom, nom, annee) {
 
 var hugo = new Ecrivain('Victor', 'Hugo', 1802);
 
-el = docuemnt.querySelector("#resultat");
+el = document.querySelector("#resultat");
 el.innerHTML = hugo.f();
 ```
 
