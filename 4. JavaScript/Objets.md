@@ -26,10 +26,12 @@ En JavaScript, tout est objet, les fonctions sont également des objets, du type
 ```javascript
 var Ecrivain = function (prenom, nom) {
 	this.prenom = prenom;
-	this.nom = nom
+	this.nom = nom;
+	this.annee = annee;
+	this.f = function() { return this.annee; }
 };
 
-var hugo = new Ecrivain('Victor', 'Hugo');
+var hugo = new Ecrivain('Victor', 'Hugo', 1802);
 ```
 
 ## Fonctionnel
