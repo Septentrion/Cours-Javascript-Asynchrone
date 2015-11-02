@@ -24,7 +24,7 @@ var y = Object.create(x);
 En JavaScript, tout est objet, les fonctions sont également des objets, du type Function. On peut donc également définir un objet de cette manière :
 
 ```javascript
-var Ecrivain = function (prenom, nom) {
+var Ecrivain = function (prenom, nom, annee) {
 	this.prenom = prenom;
 	this.nom = nom;
 	this.annee = annee;
