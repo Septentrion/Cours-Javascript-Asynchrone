@@ -14,13 +14,14 @@
 </p>
 <div id="resume"></div>
 <script type="text/javascript">
-	document.querySelectorAll('a').forEach(function(lien, index, tableau) {
+	var liens = document.querySelectorAll('a');
+	for (var lien of liens) {
 		lien.addEventListener('click', function(event) {
 		  event.preventDefault();
 		  var url = event.target.getAttribute('href');
 		  ajax(url, insertResume);
 	     })
-	})
+	}
 </script>
 </body>
 </html>
