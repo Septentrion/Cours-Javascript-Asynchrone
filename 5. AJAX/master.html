@@ -2,11 +2,25 @@
 <html>
 <head>
 	<title></title>
+	<script type="text/javascript" src="xmlHttpRequest.js"></script>
+	<script type="text/javascript" src="response.js"></script>
 </head>
 <body>
 <p>
-	<a href="page-1.html">Page 1</a>
+	<a id="page-1" href="page-1.html">Page 1</a>
+</p>
+<p>
+	<a id="page-2" href="page-2.html">Page 2</a>
 </p>
 <div id="resume"></div>
+<script type="text/javascript">
+	document.querySelectorAll('a').forEach(function(lien, index, tableau) {
+		lien.addEventListener('click', function(event) {
+		  event.preventDefault();
+		  var url = event.target.getAttribute('href');
+		  ajax(url, insertResume);
+	     })
+	})
+</script>
 </body>
 </html>
