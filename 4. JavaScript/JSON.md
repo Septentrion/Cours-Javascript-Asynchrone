@@ -42,4 +42,4 @@ PHP possède par exemple une fonction json_encode() qui transforme un objet PHP 
 
 Vous pouvez vérifier en ligne que les objets JSON que vous manipulez ou produisez sont bien syntaxiquement corrects.
 
-[Validateur JSON](http://jslint.com)
+[Validateur JSON](http://jsonlint.com)
