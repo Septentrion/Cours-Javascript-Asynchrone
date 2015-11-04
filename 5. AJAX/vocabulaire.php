@@ -20,7 +20,7 @@ foreach ($entries as $entry) {
 	$terme = $entry->nodeValue;
 	if (strstr($terme, $racine) !== false) {
 		$tmp['terme'] = $terme;
-		$tmp['code'] = $entry->parentNode->lastChild->nodeValue;
+      		$tmp['code'] = $entry->parentNode->lastChild->nodeValue;
 		$selection[] = $tmp;
 	}
     // echo "Livre trouvé {$entry->previousSibling->previousSibling->nodeValue}," .
